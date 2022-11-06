@@ -3,14 +3,64 @@
     padding: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: auto;
+
 }
-.quote>div {
+.quote div:first-child {
     max-width: 800px;
     font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    align-self: center;
 }
 
 #author {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-self: end;
+    padding-right: 200px;
+    font-size: 22px;
+}
+
+.sign-up {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.block {
+    background-color: #3882f6;
+    padding: 50px 160px;
+    display: flex;
+    gap: 120px;
+    border-radius: 8px;
+    align-items: center;
+}
+#call-to-action {
+    color: white;
+    font-size: 25px;
+    font-weight:600;
+}
+
+#click-button{
+    color: rgb(231, 231, 231);
+    font-size: 18px;
+}
+
+button.sign-button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    max-height: 40px;
+    font-size: 18px;
+    width: 130px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
 }
